@@ -1,0 +1,471 @@
+.Home-Sec {
+    position: relative; /* Enables positioning for the pseudo-element */
+    width: 100vw;
+    height: 42vw;
+    background-image: url("../assets/img/mmm.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    overflow: hidden; /* Ensures pseudo-element doesn't exceed bounds */
+}
+
+.Home-Sec::before {
+    content: ""; /* Creates the pseudo-element */
+    position: absolute; /* Positions it over the parent */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black; /* Overlay color */
+    opacity: 0.6; /* Adjust darkness */
+    z-index: 1; /* Stacks the overlay below content */
+}
+
+.Home-Sec div {
+width: 100%;
+    position: relative;
+
+    top: 255px;
+    z-index: 2; 
+ 
+}
+
+.Home-Sec div h1 {
+    font-size: 3rem; /* Responsive font size */
+      color: var(	--text-white-color);
+    text-shadow:var(--txt-shadow);
+  
+text-align: center;
+}
+
+.Home-Sec div .comp-info{
+    font-size: 40px;
+    text-align: center;
+    color: var(	--text-white-color);
+    margin-top: 18px;
+}
+
+
+#mach-type{
+ color: var(--text-white-color);
+    font-size: 18px;
+         font-family: var( --font-three);
+    text-align: center;
+      margin-top: 47px;
+ 
+
+}
+.Prod-header{
+    font-family: var(--font-three);
+    font-size: 26px;
+   color: rgb(35, 95, 35);
+    margin-left: 79px;
+}
+
+
+.home-prod{
+    width: 90%;
+    display: block;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.home-prod fieldset{
+border-radius: 12px;
+
+}
+.home-prod .imgg{
+    width: 100%;
+    height: 350px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+}
+ 
+fieldset .imgg:hover {
+    transform: scale(1.01); /* Example: Slight zoom effect */
+    transition: transform 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Change cursor to pointer */
+}
+.home-prod div p {
+    text-align: center;
+    color: var(--theme-clr);
+    font-family: var(--font-two);
+    font-size: 25px;
+}
+
+
+.Order-sect{
+width: 100%;
+padding: 40px;
+background-color: whitesmoke;
+ position: relative;
+    top: 120px;
+}
+.Steps-cont{
+    width: 93%;
+    position: relative;
+    left: 138px;     
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 10px;
+   
+}
+
+.OrderP-Head{
+    font-size: 49px;
+    text-align: center;
+    color: rgb(35, 95, 35);
+}
+
+.Steps {
+display: flex;
+gap: 30px;
+}
+
+.Steps div:nth-child(1){
+width: 50%;
+margin-top: 20px;
+}
+
+
+.Steps div:nth-child(1) h1{
+font-size: 25px;
+color: var(--theme-clr);
+font-family:var(--font-one);
+
+} 
+
+.Steps div:nth-child(1) p{
+    color: rgb(64, 61, 61);
+    font-size: 18px;
+    font-family: var(--font-one);
+}
+
+.Steps div:nth-child(2){
+width: 50%;
+}
+.Steps div:nth-child(2) img{
+    width: 55%;
+    border-radius: 5px;
+
+}
+
+.D-Sec{
+    width: 80%;
+    margin: auto;
+   display: flex; 
+   justify-content: space-between;
+   gap: 50px;
+   position: relative;
+   top: 131px;
+
+}
+
+
+.D-Sec>div:nth-child(1){
+   width: 80%;
+   position: sticky;
+
+}
+
+
+.D-Sec>div:nth-child(2){
+   width: 70%;
+   position: relative;
+   top: 76px;
+}
+
+.D-Sec div:nth-child(1) img{
+    width: 100%;
+    height: 440px;
+    border-radius: 10px;
+    object-position: center;
+}
+
+
+.Mname{
+   color: rgb(35, 95, 35) ;
+    font-size: 30px;
+}
+
+.Mdecs{
+    font-size: 20px;
+}
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+    .Home-Sec {
+    position: relative; /* Enables positioning for the pseudo-element */
+    width: 100vw;
+    height: 144vw;
+    background-image: url("../assets/img/mmm.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    overflow: hidden; /* Ensures pseudo-element doesn't exceed bounds */
+}
+
+
+.Home-Sec div {
+width: 100%;
+    position: relative;
+    top: 205px;
+    z-index: 2; 
+ 
+}
+
+
+.Home-Sec div h1 {
+    font-size: 3rem; /* Responsive font size */
+      color: var(	--text-white-color);
+    text-shadow:var(--txt-shadow);
+  
+text-align: center;
+}
+
+.Home-Sec div .comp-info{
+    font-size: 30px;
+    text-align: center;
+    color: var(	--text-white-color);
+    margin-top: 17px;
+}
+
+
+#mach-type{
+    width: 95%;
+    margin: auto;
+ color: var(--text-white-color);
+    font-size: 16px;
+         font-family: var( --font-three);
+         margin-top: 26px;
+         
+ 
+
+}
+
+.home-prod{
+    width: 97%;
+    display: block;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-bottom: 12px;
+}
+.home-prod .imgg{
+    width: 100%;
+    height: 260px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+}
+ 
+.home-prod div p {
+    text-align: center;
+    color: var(--theme-clr);
+    font-family: var(--font-two);
+    font-size: 18px;
+}
+
+
+.Steps-cont{
+    width: 93%;
+    position: relative;
+    left: 8px;     
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    gap: 20px;
+   
+}
+
+.Order-sect{
+width: 100%;
+padding: 20px 10px 20px 10px;
+background-color: whitesmoke;
+ position: relative;
+    top: 120px;
+}
+
+.OrderP-Head{
+    font-size: 29px;
+    text-align: center;
+    color: rgb(35, 95, 35);
+}
+
+.Steps {
+    display: flex;
+    gap: 7px;
+}
+
+.Steps div:nth-child(1){
+width: 100%;
+margin-top: 20px;
+margin-left: 6px;
+}
+
+
+.Steps div:nth-child(1) h1{
+font-size: 28px;
+color: var(--theme-clr);
+
+} 
+
+.Steps div:nth-child(1) p{
+    color: rgb(64, 61, 61);
+    font-size: 19px;
+    font-family: var(--font-one);
+}
+
+.Steps div:nth-child(2){
+width: 100%;
+}
+.Steps div:nth-child(2) img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    margin-top: 25px;
+    border-radius: 5px;
+
+}
+
+
+.D-Sec{
+    width: 97%;
+    margin: auto;
+    flex-wrap:wrap ;
+   justify-content: space-between;
+   gap: 40px;
+   position: relative;
+   top: 121px;
+
+}
+
+
+.D-Sec div:nth-child(1){
+   width: 100%;
+}
+
+
+.D-Sec div:nth-child(2){
+   width: 100%;
+   position: relative;
+   top: 76px;
+}
+
+.D-Sec div:nth-child(1) img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    object-position: center;
+}
+
+}
+
+@media screen and (min-width:481px) and (max-width: 1084px) {
+
+    .Home-Sec {
+    position: relative; /* Enables positioning for the pseudo-element */
+    width: 100vw;
+    height:90vw;
+    background-image: url("../assets/img/mmm.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    overflow: hidden; /* Ensures pseudo-element doesn't exceed bounds */
+}
+
+.Home-Sec div {
+width: 100%;
+    position: relative;
+    top: 305px;
+    z-index: 2; 
+ 
+}
+
+.home-prod{
+    width: 98%;
+    display: block;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-bottom: 18px;
+}
+.home-prod .imgg{
+    width: 100%;
+    height: 260px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+}
+
+
+.Order-sect{
+width: 100%;
+padding: 20px;
+background-color: whitesmoke;
+ position: relative;
+    top: 120px;
+}
+
+.Steps-cont{
+    width: 100%;
+    position: relative;
+    left: 10px;     
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px;
+   
+}
+
+.OrderP-Head{
+    font-size: 49px;
+    text-align: center;
+    color: rgb(35, 95, 35);
+}
+
+.Steps {
+display: flex;
+gap: 30px;
+}
+
+.Steps div:nth-child(1){
+width: 50%;
+margin-top: 4px ;
+}
+
+
+.Steps div:nth-child(1) h1{
+font-size: 30px;
+color: var(--theme-clr);
+
+} 
+
+.Steps div:nth-child(1) p{
+    color: rgb(64, 61, 61);
+    font-size: 20px;
+    font-family: var(--font-one);
+}
+
+.Steps div:nth-child(2){
+width: 50%;
+}
+.Steps div:nth-child(2) img{
+    width: 96%;
+    border-radius: 5px;
+margin-top: 20px ;
+
+
+}
+
+
+.Prod-header{
+    font-family: var(--font-three);
+    font-size: 30px;
+   color: rgb(35, 95, 35);
+    margin-left: 30px;
+}
+
+}

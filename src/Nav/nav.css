@@ -1,0 +1,264 @@
+.Nav-sec{
+    width: 100%;
+    background-color: var(--text-white-color);
+    border-bottom: 2px solid green;
+    z-index: 3;
+   position: fixed;
+}
+
+.Navs{
+    width: 95%;
+    display: block;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.Navs img{
+width: 360px;
+position:relative ;
+object-fit: cover;
+    
+}
+
+.Navs ul{
+    display: flex;
+ gap: 20px;
+}
+
+
+.link{
+    color: black;
+text-decoration: none;
+   list-style: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+
+.Navs ul li:hover{
+background-color: green;
+padding:2px 9px 2px 9px;
+color: var(--text-white-color);
+border-radius: 6px;
+}
+
+
+.Navs ul li:focus{
+    background-color: green;
+padding:2px 9px 2px 9px;
+color: var(--text-white-color);
+border-radius: 6px;
+ }
+
+.Navs div:nth-child(2){
+ 
+    position: relative;
+    top: 44px;
+}
+
+.Navs div:nth-child(3){
+    display: none;
+}
+
+.Small-nav{
+    display: none;
+}
+
+ 
+
+
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+ 
+.Navs img{
+width: 270px;
+position:relative ;
+right: 23px;
+top: 3px;
+object-fit: cover;
+    
+}
+
+.Navs div:nth-child(2) {
+display: none;
+}
+
+.Navs div:nth-child(3){
+    position: relative;
+    top: 29px;
+    display:block;
+
+}
+
+
+
+.Navs div:nth-child(3) i{
+    font-size: 36px;
+
+}
+
+
+.Small-nav{
+    width: 70%;
+    display:block;
+    
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    height: 100%;
+    position:fixed ;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: whitesmoke;
+    
+}
+
+.Small-nav div:nth-child(1){
+height: 40px;
+z-index: 99;
+border-radius: 3px;
+background-color: green;
+    margin-top: 20px;
+margin-left: -13px;
+border-radius: 6px;
+
+} 
+
+
+.Small-nav div:nth-child(1) i{
+color: var(--text-white-color);
+    font-size: 40px;
+    text-align: center;
+}
+.Small-nav div:nth-child(2){
+width: 100%;
+padding: 20px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+
+
+    
+}
+
+
+.Small-nav div:nth-child(2) ul{
+    list-style: none;
+    margin-top: 60px;
+
+}
+
+
+.Small-nav div:nth-child(2) li{
+    font-size: 25px;
+}
+
+
+.Small-nav div:nth-child(2) ul li:hover{
+    width: 120px;
+    position: relative;
+    padding: 4px;  
+    font-size: 25px;
+    padding-left:1px;
+    text-align: center;
+    background-color: green;
+    border-radius: 12px;
+    color: white;
+    font-size: 25px;
+}
+
+}
+
+@media screen and (min-width:481px) and (max-width: 1084px) {
+.Navs div:nth-child(2) {
+display: none;
+}
+
+   .Navs div:nth-child(3){
+    position: relative;
+    top: 44px;
+    display:block;
+
+} 
+
+.Navs div:nth-child(3) i{
+    font-size: 46px;
+
+}
+
+
+.Small-nav{
+    width: 65%;
+    display:block;
+    
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    height: 100%;
+    position:fixed ;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: whitesmoke;
+    
+}
+
+.Small-nav div:nth-child(2){
+text-align: center; 
+margin-top: 120px; 
+margin-right: 210px;
+  padding: 0px;
+}
+
+.Small-nav div:nth-child(2)  li:hover{
+    background-color: green;
+    border-radius: 12px;
+    font-size: 30px;
+    color: white;
+  padding: 5px 8px 5px 8px;
+ 
+
+
+}
+
+.Small-nav div:nth-child(2) li{
+    font-size: 30px;
+}
+
+.Small-nav div:nth-child(1){
+    width: 50px;
+height: 45px;
+z-index: 99;
+border-radius: 3px;
+background-color: green;
+    margin-top: 20px;
+margin-left: -15px;
+border-radius: 6px;
+
+} 
+
+
+.Small-nav div:nth-child(1) i{
+color: var(--text-white-color);
+    font-size: 45px;
+    text-align: center;
+}
+
+.Navs img{
+width: 400px;
+position:relative ;
+right: 23px;
+top: 3px;
+object-fit: cover;
+    
+}
+
+
+
+}

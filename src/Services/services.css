@@ -1,0 +1,226 @@
+.Service-page{
+    position: relative;
+    top: 94px;
+}
+
+
+
+
+.service-header {
+    background-image: url("../assets/img/-Maintenance-atf.webp");
+    height: 27vw;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative; /* Ensure child elements position relative to this */
+}
+
+.service-header::before {
+    content: ""; /* Creates the pseudo-element */
+    position: absolute; /* Positions it over the parent */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black; /* Overlay color */
+    opacity: 0.6; /* Adjust darkness */
+    z-index: 1; /* Stacks the overlay below content */
+}
+
+.serv-hero-cont{
+    position: relative;
+    width: 80%; 
+    margin: auto;
+    z-index: 2;
+    margin-top: 130px;
+   
+
+}
+
+
+
+.serv-hero-cont h1{
+    color: var(--text-white-color);
+    text-shadow: var(--txt-shadow);
+    font-family: var( --font-two);
+    font-size: 3rem ;
+    color: var(--theme-clr);
+}
+
+.serv-hero-cont p{
+    color: var(--text-white-color);
+    font-size: 18px;
+    margin-top: 7px;
+    font-family: var(--font-two);
+}
+
+.services-section-cont{
+    margin-top: 120px;
+    padding: 20px;
+    background-color: whitesmoke;
+
+}
+
+
+
+.Services{
+    width: 90%;
+    align-items:center ;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+    padding: 14px;
+
+
+}
+
+
+
+.Services div:nth-child(1) {
+    width: 100%;
+}
+
+.Services div:nth-child(2) {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.serv-img{
+margin-top: 7px;
+}
+
+.serv-img img{
+    width: 100%;
+    max-width: 140px;
+    height:auto;
+    margin-left: 120px;
+
+}
+
+.serv-info{
+    display: flex;
+
+}
+
+.serv-info h2{
+    color: var(	--theme-clr);
+    font-size: 24px;
+    font-family: var(  --font-one);
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+.service-header {
+    background-image: url("../assets/img/-Maintenance-atf.webp");
+    height: 100vw;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative; /* Ensure child elements position relative to this */
+}
+
+.Service-page{
+    position: relative;
+    top: 65px;
+}
+
+
+.service-header::before {
+    content: ""; /* Creates the pseudo-element */
+    position: absolute; /* Positions it over the parent */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black; /* Overlay color */
+    opacity: 0.6; /* Adjust darkness */
+    z-index: 1; /* Stacks the overlay below content */
+}
+   
+
+.serv-hero-cont{
+    position: relative;
+    width: 95%; 
+    margin: auto;
+    z-index: 2;
+    margin-top: 116px;
+   
+
+}
+
+
+.Services{
+    width: 99%;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 10px;
+    padding: 14px;
+
+
+}
+
+.services-section-cont{
+    margin-top: 60px;
+    padding: 20px;
+    background-color: whitesmoke;
+
+}
+
+
+
+
+.serv-img{
+margin-top: 26px;
+}
+
+.serv-img img{
+    width: 100%;
+    max-width: 190px;
+    height:auto;
+    margin-left: 3px;
+
+}
+
+.serv-info{
+    width: 100%;
+    display: flex;
+gap: 20px;
+}
+
+.serv-info div :nth-child(2){
+    width: 220px;
+    margin-right: -20px;
+
+}
+
+}
+
+@media screen and (min-width:481px) and (max-width:1080px) {
+.Services{
+    width: 99%;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 10px;
+    padding: 14px;
+
+
+}
+
+.service-header {
+    background-image: url("../assets/img/-Maintenance-atf.webp");
+    height: 60vw;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative; /* Ensure child elements position relative to this */
+}
+
+.serv-hero-cont{
+    position: relative;
+    width: 95%; 
+    margin: auto;
+    z-index: 2;
+    margin-top: 135px;
+   
+
+}
+}

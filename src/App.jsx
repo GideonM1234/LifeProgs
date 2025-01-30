@@ -1,35 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Route, Routes, Link } from 'react-router-dom'
 import './App.css'
+import Home from './Home/Home'
+import Detailed_p from './Home/Detailed_p'
+import About from './About/About'
+import Service from './Services/Service'
+import Product from './Product/Product'
+import Contact from './Contact/Contact'
+import ScrollToTop from './ScrollToTop'
+import { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  useEffect(() => {
+		AOS.init();
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+		<>
+		<ScrollToTop/>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/Machine/:id" element={<Detailed_p />} />
+				<Route path="/About" element={<About />} />
+				<Route path="/Products" element={<Product />} />
+				<Route path="/Services" element={<Service />} />
+				<Route path="/ContactUs" element={<Contact />} />
+			</Routes>
+		</>
+  );
 }
 
-export default App
+export default App;
