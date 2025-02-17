@@ -111,7 +111,8 @@ margin-top: 7px;
 @media screen and (min-width:320px) and (max-width:480px) {
 .service-header {
     background-image: url("../assets/img/-Maintenance-atf.webp");
-    height: 100%;
+     height: 100vw;
+
     height: 100vw;
 
     background-position: center;
@@ -208,7 +209,8 @@ gap: 20px;
 }
 
 .service-header {
-    width: 100%;
+      height: 100vw;
+
     background-image: url("../assets/img/-Maintenance-atf.webp");
     height: 60vw;
     background-position: center;
