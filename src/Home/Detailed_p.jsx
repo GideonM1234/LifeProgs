@@ -1,13 +1,14 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { homeList } from '../Lists/Homelist';
+import { pharmaceuticalEquipments } from '../Lists/Homelist';
 import Nav from '../Nav/Nav';
 import "./home.css";
 import Footer from '../Footer/Footer';
 function Detailed_p() {
     const {id} = useParams();
 
-    const machines = homeList.find((mach) => mach.id === Number(id));
+    const machines = pharmaceuticalEquipments.find((mach) => mach.id === Number(id));
+	
 
     if (!machines) {
 		return <p>404</p>;
@@ -22,8 +23,8 @@ function Detailed_p() {
 				data-aos-duration="1000"
 			>
 				<div>
-					<div className='img-stick'>
-					<img src={machines.pic} alt="machineimg" />
+					<div className="img-stick">
+						<img src={machines.pic} alt="machineimg" />
 					</div>
 				</div>
 				<div>
@@ -31,6 +32,11 @@ function Detailed_p() {
 						<p className="Mname">{machines.Name}</p>
 						<br />
 						<p className="Mdecs">{machines.Description}</p>
+						<br />
+						<p className="Mdecs">
+							<b className="Mdecss-b">.</b>
+							{machines.Specifications}
+						</p>
 					</div>
 				</div>
 			</section>

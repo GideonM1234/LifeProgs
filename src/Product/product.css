@@ -1,0 +1,252 @@
+.Prod-Section{
+width: 100%;
+margin-top: 75px;
+}
+
+
+.product-Hero-sec{
+    background-image: url("../assets/img/product.jpeg");
+    background-position: center;
+background-size: cover;
+    height: 33vw;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.product-Hero-sec::before { /* No space here */
+    content: ""; /* Creates the pseudo-element */
+    position: absolute; /* Positions it over the parent */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black; /* Overlay color */
+    opacity: 0.7; /* Adjust darkness */
+    z-index: 1; /* Stacks the overlay below content */
+}
+
+ 
+.product-Hero-sec h1{
+ 
+    text-shadow: var(--txt-shadow);
+    font-family: var( --font-two);
+    font-size: 50px;
+    color: var(--theme-clr);
+    text-align: center;
+}
+
+.product-Hero-sec p{
+   color: var(--text-white-color);
+    font-size: 17px;
+    text-align: center;
+    margin-top: 13px;
+
+}
+
+
+
+.product-Hero-sec div{
+width: 80%;
+margin: auto;
+position: relative;
+top: 180px;
+z-index:1;
+}  
+
+.product-section-h2{
+    text-align: center;
+    color: var(--theme-clr);
+    font-family: var(--font-two);
+    font-size: 34px;
+    position: relative;
+    top: 45px;
+}
+
+.products-contianers{
+    width: 90%;
+    margin: auto;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 16px;
+margin-top: 80px;
+}
+
+.product-fieldset{
+border-radius: 12px;
+padding:15px ;
+}
+
+
+.product-fieldset img{
+width: 90%;
+display: block;
+margin: auto;
+height: 250px;
+border-radius: 12px;
+object-fit: cover;
+border-top: 13px;
+}
+
+.product-fieldset img:hover{
+       transform: scale(1.01); /* Example: Slight zoom effect */
+    transition: transform 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.product-fieldset p{
+    text-align: center;
+    color: var(--theme-clr);
+    font-size: 18px;
+    position: relative;
+    top: 12px;
+cursor: pointer;
+
+}
+
+
+
+.product-fieldset p:hover{
+    text-decoration: underline;
+}
+
+@media screen  and (min-width:320px) and (max-width:480px){
+  .Prod-Section{
+width: 100%;
+margin-top: 0px;
+}
+
+
+.product-Hero-sec{
+    background-image: url("../assets/img/product.jpeg");
+    background-position: center;
+background-size: cover;
+    height: 106vw;
+    position: relative;
+    overflow: hidden;
+
+}  
+
+
+.product-Hero-sec div{
+width: 95%;
+margin: auto;
+position: relative;
+top: 140px;
+z-index:1;
+}
+
+.product-Hero-sec h1{
+
+    text-shadow: var(--txt-shadow);
+    font-family: var( --font-two);
+    font-size: 45px;
+    color: var(--theme-clr);
+    text-align: center;
+}
+
+
+.product-Hero-sec p{
+   color: var(--text-white-color);
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.products-contianers{
+    width: 95%;
+    margin: auto;
+display: grid;
+grid-template-columns: repeat(2, 2fr);
+gap: 6px;
+margin-top: 80px;
+}
+
+.product-fieldset{
+border-radius: 12px;
+padding:15px ;
+}
+
+
+.product-fieldset img{
+width: 96%;
+display: block;
+margin: auto;
+height: 230px;
+border-radius: 12px;
+object-fit: cover;
+border-top: 13px;
+}
+
+.product-fieldset p{
+    text-align: center;
+    color: var(--theme-clr);
+    font-size: 19px;
+    position: relative;
+    top: 6px;
+cursor: pointer;
+
+}
+
+
+.product-section-h2{
+    text-align: center;
+    color: var(--theme-clr);
+    font-family: var(--font-two);
+    font-size: 30px;
+    position: relative;
+    top: 45px;
+}
+
+}
+
+@media screen  and (min-width:481px) and (max-width:1080px){
+   
+.product-Hero-sec{
+    background-image: url("../assets/img/product.jpeg");
+    background-position: center;
+background-size: cover;
+    height: 70vw;
+    position: relative;
+    overflow: hidden;
+
+}  
+
+
+.product-Hero-sec div{
+width: 90%;
+margin: auto;
+position: relative;
+top: 180px;
+z-index:1;
+}
+ 
+ .product-Hero-sec h1{
+
+    text-shadow: var(--txt-shadow);
+    font-family: var( --font-two);
+    font-size: 50px;
+    color: var(--theme-clr);
+    text-align: center;
+}
+
+
+.product-Hero-sec p{
+   color: var(--text-white-color);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+ 
+.products-contianers{
+    width: 95%;
+    margin: auto;
+display: grid;
+grid-template-columns: repeat(3, 2fr);
+gap: 6px;
+margin-top: 80px;
+}
+
+}

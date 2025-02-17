@@ -109,15 +109,16 @@ function Service() {
 								</div>
 								<div>
 									<h2>
-										Customized Training and Capacity
-										Building
+										Customized Training / Mentorship and
+										Capacity Building
 									</h2>
 									<p>
-										LifeProt Scientific provides workshops
-										and training on the effective use of
-										scientific equipment, along with
-										capacity-building programs to enhance
-										technical skills.
+										LifeProt Scientific Provides training on
+										Quality and Risk Management System,
+										QRMS, workshops and mentoring on the
+										effective use of scientific equipment,
+										along with capacity-building programs to
+										enhance technical skills.
 									</p>
 								</div>
 							</div>

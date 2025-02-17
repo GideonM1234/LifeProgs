@@ -5,11 +5,14 @@ import './footer.css'
 function Footer() {
   return (
 		<section className="footer-section">
-			<section className="F_Sec">
+			<section
+				className="F_Sec"
+				data-aos="fade-up"
+				data-aos-duration="1200"
+			>
 				<div>
-					<Link to ="/">
-					
-					<img src={Logo} alt="" />
+					<Link to="/Home">
+						<img src={Logo} alt="" />
 					</Link>
 				</div>
 
@@ -37,7 +40,7 @@ function Footer() {
 					<br />
 
 					<ul>
-						<Link to={"/"} className="link">
+						<Link to={"/Home"} className="link">
 							<li>Home</li>
 						</Link>
 						<br />
@@ -45,7 +48,7 @@ function Footer() {
 							<li>About</li>
 						</Link>
 						<br />
-						<Link to={"/Products"} className="link">
+						<Link to={"/"} className="link">
 							<li>Product</li>
 						</Link>
 						<br />
@@ -62,11 +65,17 @@ function Footer() {
 					<h2>Solution Lines</h2>
 					<br />
 					<ul>
-						<li>Manufacturing Machines</li>
+						<Link to={"/Products"} className="link">
+							<li>Manufacturing Machines</li>
+						</Link>
 						<br />
-						<li>Pharmaceutical Equipments</li>
+						<Link to={"/Products"} className="link">
+							<li>Pharmaceutical Equipments</li>
+						</Link>
 						<br />
-						<li>Chemical Industrial Machine</li>
+						<Link to={"/Products"} className="link">
+							<li>Chemical Industrial Machine</li>
+						</Link>
 					</ul>
 					<br />
 
@@ -92,11 +101,15 @@ function Footer() {
 						</a>
 					</span>
 				</div>
-			</section><br />
+			</section>
+			<br />
 
-			<div className='righreserved'>
-				<p className='bline'></p><br />
-				<p className='bltext'>&copy; LifeProtScientific || 2024 All right reserved </p>
+			<div className="righreserved">
+				<p className="bline"></p>
+				<br />
+				<p className="bltext">
+					&copy; LifeProtScientific || 2024 All right reserved{" "}
+				</p>
 			</div>
 		</section>
   );

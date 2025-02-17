@@ -191,13 +191,15 @@ justify-content: space-between;
 }
 
 .inp-cont{
-    flex-wrap: wrap;
-    gap: 12px;
+    width: 100%;
+    flex-direction: column;
 }
 
 .input-div{
     margin-top: 40px;
+    width: 100%;
 }
+
 
 .lht-h1{
     font-size: 48px;
@@ -207,7 +209,7 @@ justify-content: space-between;
 }
 
 .inp-ph{
-width: 345px;
+  width:100% ;
    padding: 12px;
     border-radius: 10px;
     font-size: 17px;
@@ -218,16 +220,17 @@ width: 345px;
 
 
 .input1{
-    width: 345px;
+
+width:100% ;
     padding: 12px;
-    font-size: 17px;
     border-radius: 10px;
+    font-size: 17px;
     outline: none;
     border: 2px solid lightgray;
 }
 
 textarea{
-width: 345px;
+width:100%;
    padding: 12px;
 height: 200px;
     font-size: 17px;
@@ -244,8 +247,10 @@ height: 200px;
     display: flex;
     color: green;
     font-size: 24px;
-    width: 80%;
+    width: 90%;
     margin: auto;
+    justify-content: center;
+
 }
 
 .Cont-h::before{
@@ -277,6 +282,7 @@ display: inline-block;
     margin-top: 7px;
     font-size: 20px;
 }
+
 
 
 .con-info{
@@ -378,5 +384,20 @@ height: 200px;
 
 .input-div{
     margin-top: 35px;
+}
+
+
+
+.success-message-cont{
+  background-color: rgb(60, 164, 60); 
+  width: 250px; 
+  position:absolute;
+  top: 138px;
+  right: 35%;
+    padding: 1px;
+    border-radius: 8px;
+
+
+
 }
 }

@@ -77,6 +77,15 @@ list-style: none;
     color: var(--text-white-color);
     
 }
+
+.F_Sec div:nth-child(4) li:hover{
+    text-decoration: underline;
+} 
+
+.F_Sec div:nth-child(3) li:hover{
+    text-decoration: underline;
+    } 
+
 .inst{
     color: purple;
     font-size: 28px;
@@ -105,6 +114,21 @@ list-style: none;
     color: blue;
     font-size: 28px;
 
+}
+
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.inst, .you, .twit, .face, .linkd {
+    font-size: 28px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.inst:hover, .you:hover, .twit:hover, .face:hover, .linkd:hover {
+    animation: bounce 0.5s ease-in-out;
 }
 
 .righreserved{
