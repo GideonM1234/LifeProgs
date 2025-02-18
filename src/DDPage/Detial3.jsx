@@ -11,7 +11,7 @@ const phamachines = pharmaceuticalEquipments.find(
 );
 
 return (
-	<section>
+	<section >
 		<Nav />
 		<section className="D-Sec">
 			<div>

@@ -14,7 +14,7 @@ function Detailed_p() {
 		return <p>404</p>;
 	}
   return (
-		<div>
+		<div >
 			<Nav />
 			<br />
 			<section
