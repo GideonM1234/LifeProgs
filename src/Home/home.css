@@ -250,7 +250,7 @@ margin: auto;
 
 .Home-Sec div h1 {
     width: 98%;
-    font-size: 40px; /* Responsive font size */
+    font-size: 44px; /* Responsive font size */
       color: var(	--text-white-color);
     text-shadow:var(--txt-shadow);
 position: relative;
