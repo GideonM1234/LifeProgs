@@ -237,7 +237,7 @@ width: 93%;
 display: block;
 margin: auto;
     position: relative;
-    top: 10px;
+    top: 12px;
     z-index: 2;
     padding: 6px; 
  
@@ -250,11 +250,11 @@ margin: auto;
 
 .Home-Sec div h1 {
     width: 100%;
-    font-size: 45px; /* Responsive font size */
+    font-size: 40px; /* Responsive font size */
       color: var(	--text-white-color);
     text-shadow:var(--txt-shadow);
 position: relative;
-left: -6px;
+left: -10px;
 }
 
 .Home-Sec div .comp-info{
