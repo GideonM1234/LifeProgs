@@ -249,12 +249,12 @@ margin: auto;
 
 
 .Home-Sec div h1 {
-    width: 96%;
-    margin: auto;
+    width: 100%;
     font-size: 45px; /* Responsive font size */
       color: var(	--text-white-color);
     text-shadow:var(--txt-shadow);
-
+position: relative;
+left: -6px;
 }
 
 .Home-Sec div .comp-info{
