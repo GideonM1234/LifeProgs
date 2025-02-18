@@ -223,18 +223,13 @@ left: -5px;
 }
 .Prod-header{
     font-family: var(--font-three);
-    font-size: 26px;
+    font-size: 30px;
    color: rgb(35, 95, 35);
+   text-align: center;
     margin-left: 0px;
 }
 
 
-.Prod-header{
-    font-family: var(--font-three);
-    font-size: 26px;
-   color: rgb(35, 95, 35);
-    margin-left: 79px;
-}
 
 
 .Home-Sec div {
@@ -254,9 +249,12 @@ margin: auto;
 
 
 .Home-Sec div h1 {
+    width: 96%;
+    margin: auto;
     font-size: 45px; /* Responsive font size */
       color: var(	--text-white-color);
     text-shadow:var(--txt-shadow);
+
 }
 
 .Home-Sec div .comp-info{
