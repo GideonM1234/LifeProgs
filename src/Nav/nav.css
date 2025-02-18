@@ -58,7 +58,10 @@ text-decoration: none;
 
 
 @media screen and (min-width:320px) and (max-width:480px){
- 
+ .Nav-sec{
+    width: 100%;
+
+}
 .Navs img{
 width: 270px;
 position:relative ;

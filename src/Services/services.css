@@ -112,9 +112,6 @@ margin-top: 7px;
 .service-header {
     background-image: url("../assets/img/-Maintenance-atf.webp");
      height: 100vw;
-
-    height: 100vw;
-
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -166,6 +163,7 @@ margin-top: 7px;
     margin-top: 60px;
     padding: 20px;
     background-color: whitesmoke;
+ overflow-x: hidden;
 
 }
 
