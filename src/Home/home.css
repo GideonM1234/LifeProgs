@@ -243,7 +243,6 @@ margin: auto;
     font-size: 45px; /* Responsive font size */
       color: var(	--text-white-color);
     text-shadow:var(--txt-shadow);
-text-align: center;
 }
 
 .Home-Sec div .comp-info{
