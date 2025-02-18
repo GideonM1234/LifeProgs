@@ -270,7 +270,7 @@ text-align: center;
     display: block;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(1, 2fr);
     gap: 4px;
 }
 
@@ -437,7 +437,9 @@ background-color: whitesmoke;
     display: grid;
     grid-template-columns: repeat(1 , 1fr);
     gap: 10px;
+    overflow: hidden;
 margin-left: 24px
+
    
 }
 
