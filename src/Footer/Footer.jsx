@@ -65,15 +65,15 @@ function Footer() {
 					<h2>Solution Lines</h2>
 					<br />
 					<ul>
-						<Link to={"/Products"} className="link">
+						<Link to={"/"} className="link">
 							<li>Manufacturing Machines</li>
 						</Link>
 						<br />
-						<Link to={"/Products"} className="link">
+						<Link to={"/"} className="link">
 							<li>Pharmaceutical Equipments</li>
 						</Link>
 						<br />
-						<Link to={"/Products"} className="link">
+						<Link to={"/"} className="link">
 							<li>Chemical Industrial Machine</li>
 						</Link>
 					</ul>
