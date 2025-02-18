@@ -54,7 +54,7 @@ function Footer() {
 						<br />
 						<Link to={"/Services"} className="link">
 							<li>Service</li>
-						</Link>{" "}
+						</Link>
 						<br />
 						<Link to={"/ContactUs"} className="link">
 							<li>Contact Us</li>
