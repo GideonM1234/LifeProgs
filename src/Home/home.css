@@ -224,7 +224,8 @@ left: -5px;
 
 
 .Home-Sec div {
-width: 97%;
+width: 94%;
+display: block;
 margin: auto;
     position: relative;
     top: 205px;
@@ -238,7 +239,7 @@ margin: auto;
 
 
 .Home-Sec div h1 {
-    font-size: 3rem; /* Responsive font size */
+    font-size: 40px; /* Responsive font size */
       color: var(	--text-white-color);
     text-shadow:var(--txt-shadow);
 text-align: center;
