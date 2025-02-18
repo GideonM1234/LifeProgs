@@ -220,11 +220,12 @@ left: -5px;
     background-position: center;
     display: flex;
     overflow: hidden; /* Ensures pseudo-element doesn't exceed bounds */
-}.Prod-header{
+}
+.Prod-header{
     font-family: var(--font-three);
     font-size: 26px;
    color: rgb(35, 95, 35);
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 
