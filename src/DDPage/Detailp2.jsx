@@ -11,7 +11,7 @@ function Detailp2() {
 	);
 
 	return (
-		<section className="D-Sec-cont">
+		<section >
 			<Nav />
 			<section className="D-Sec">
 				<div>

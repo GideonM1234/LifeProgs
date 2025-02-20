@@ -19,12 +19,18 @@ function Footer() {
 				<div>
 					<span>
 						<i class="bx bxs-phone"></i>
-						<p>+234 902 954 1796</p>
+						<a href="tel:+2349029541796" >
+							<p>+234 902 954 1796</p>
+						</a>
 					</span>
 					<br />
 					<span>
 						<i class="bx bx-envelope"></i>
-						<p>info.lifeprotscientific@gmail.com</p>
+						<a
+							href="mailto:info.lifeprotscientific@gmail.com"
+						>
+							<p>info.lifeprotscientific@gmail.com</p>
+						</a>
 					</span>
 					<br />
 					<span>

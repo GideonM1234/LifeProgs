@@ -65,7 +65,12 @@ function Contact() {
 							</div>
 							<div className="cont-info-w">
 								<h2>Email Address</h2>
-								<p>info.lifeprotscientific@gmail.com</p>
+								<a
+									href="mailto:info.lifeprotscientific@gmail.com"
+									className="link"
+								>
+									<p>info.lifeprotscientific@gmail.com</p>
+								</a>
 							</div>
 						</div>
 
@@ -75,7 +80,9 @@ function Contact() {
 							</div>
 							<div className="cont-info-w">
 								<h2>Call Us</h2>
-								<p>+234 902 954 1796</p>
+								<a href="tel:+2349029541796" className="link">
+									<p>+234 902 954 1796</p>
+								</a>
 							</div>
 						</div>
 

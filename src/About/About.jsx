@@ -6,7 +6,7 @@ import WMachine1 from '../assets/img/sell_your_machines-1.jpg'
 import WMachine2 from '../assets/img/shop-2.jpg'
 function About() {
   return (
-		<section>
+		<section className=''>
 			<Nav />
 			<br />
 

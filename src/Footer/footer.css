@@ -40,6 +40,11 @@ background-color:var(--theme-clr);
 }
 
 
+.F_Sec div:nth-child(2) a{
+    text-decoration: none;
+         color: lawngreen ;
+
+}
 
 .F_Sec div:nth-child(2) span{
     display:flex;
